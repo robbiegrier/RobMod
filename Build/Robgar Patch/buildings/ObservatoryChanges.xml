@@ -3,7 +3,7 @@
 <GameData>
 
 	<!-- +5 science from snow and ice -->
-	
+
 	<Building_TerrainYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
@@ -16,7 +16,7 @@
 
 
 
-	
+
 	<!-- localization -->
 
 	<Language_en_US>
@@ -25,12 +25,12 @@
 		<Row Tag="TXT_KEY_BUILDING_OBSERVATORY_STRATEGY">
 			<Text>The Observatory produces +1 [ICON_RESEARCH] Science on Tundra tiles, +5 [ICON_RESEARCH] Science on Snow tiles, and +5 [ICON_RESEARCH] Science on Mountain tiles.</Text>
 		</Row>
-		
+
 		<Delete Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP"/>
 		<Row Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP">
 			<Text>The Observatory produces +1 [ICON_RESEARCH] Science on Tundra tiles, +5 [ICON_RESEARCH] Science on Snow tiles, and +5 [ICON_RESEARCH] Science on Mountain tiles.</Text>
 		</Row>
-		
+
 	</Language_en_US>
 
 
@@ -93,5 +93,5 @@
 		</Row>
 
 	</Language_RU_RU>
-	
+
 </GameData>

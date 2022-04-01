@@ -2,7 +2,7 @@
 <!-- Created by ModBuddy on 7/10/2019 5:36:44 PM -->
 <!-- Robbie Grier -->
 <GameData>
-	
+
 	<Traits>
 		<Row>
 			<Type>TRAIT_CHANSON_DE_GESTE</Type>
@@ -26,7 +26,7 @@
 			<Yield>5</Yield>
 		</Row>
 	</Policy_GreatWorkYieldChanges>
-	
+
 	<Language_en_US>
 		<Row Tag="TXT_KEY_DUMMY_POLICY_FRANKS">
 			<Text>FRANKS Dummy Policy</Text>
@@ -42,5 +42,5 @@
 			<Text>+5 [ICON_GOLD] Gold from Great Works. Gains [ICON_PEACE] Faith for the empire from each enemy unit killed.</Text>
 		</Row>
 	</Language_en_US>
-  
+
 </GameData>

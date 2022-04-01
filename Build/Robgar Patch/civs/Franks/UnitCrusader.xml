@@ -9,7 +9,8 @@
 			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Combat>21</Combat>
 			<Cost>120</Cost>
-			<FaithCost>120</FaithCost> <!-- reduced faith cost -->
+			<FaithCost>120</FaithCost>
+			<!-- reduced faith cost -->
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<SpreadReligion>true</SpreadReligion>
 			<ReligiousStrength>1000</ReligiousStrength>
@@ -62,7 +63,7 @@
 		</Row>
 
 	</Unit_Flavors>
-	
+
 	<Unit_ResourceQuantityRequirements>
 		<Row>
 			<UnitType>UNIT_CRUSADER</UnitType>
@@ -128,5 +129,5 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Crusaders fought in the Crusades and the War on Christmas.</Text>
 		</Row>
 	</Language_RU_RU>
-  
+
 </GameData>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 4/3/2019 12:32:59 AM -->
 <GameData>
-	
+
 
 	<!-- CHANGES - 25% Maintenance Modifier (down from 50%) -->
-	
+
 	<Trait_MaintenanceModifierUnitCombats>
 		<Update>
 			<Set MaintenanceModifier="-25"/>
@@ -12,8 +12,8 @@
 		</Update>
 	</Trait_MaintenanceModifierUnitCombats>
 
-	
-	
+
+
 	<!-- BUILDING TEXT -->
 
 	<Language_en_US>
@@ -40,9 +40,9 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unique Zulu Barracks replacement. +15 XP for all Units and grants unique promotions to pre-gunpowder melee units.</Text>
 		</Row>
 	</Language_RU_RU>
-	
-	
-	
+
+
+
 	<!-- TRAIT TEXT -->
 
 	<Language_en_US>
