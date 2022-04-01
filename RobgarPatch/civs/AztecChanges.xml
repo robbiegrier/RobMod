@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/11/2019 11:59:39 AM -->
+<GameData>
+
+	<Traits>
+		<Update>
+			<Set  CityStateCombatModifier="10" />
+			<Where Type="TRAIT_CULTURE_FROM_KILLS" />
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed. +10% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed. +10% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed. +10% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed. +10% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

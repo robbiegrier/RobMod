@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/6/2019 1:52:54 PM -->
+<GameData>
+
+	<Policies>
+		<Update>
+			<Set MinorQuestFriendshipMod="50" />
+			<Where Type="DUMMY_POLICY_GREECE" />
+		</Update>
+	</Policies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 50% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 50% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 50% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 50% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>
