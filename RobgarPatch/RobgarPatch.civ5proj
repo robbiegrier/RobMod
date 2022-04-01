@@ -161,6 +161,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>civs/PolynesiaChanges.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>ui/StagingRoomVersioning.xml</FileName>
+      </Action>
     </ModActions>
     <ModDependencies>
       <Association>
@@ -190,6 +195,7 @@
     <Folder Include="buildings" />
     <Folder Include="art" />
     <Folder Include="civs\Franks" />
+    <Folder Include="ui" />
     <Folder Include="religion\reformations" />
     <Folder Include="wonders" />
     <Folder Include="religion" />
@@ -326,6 +332,10 @@
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="religion\reformations\UndergroundSectChanges.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="ui\StagingRoomVersioning.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
