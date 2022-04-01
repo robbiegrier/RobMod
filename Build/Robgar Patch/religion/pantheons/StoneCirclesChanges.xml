@@ -13,9 +13,9 @@
 		</Row>
 	</Belief_ImprovementYieldChanges>
 
-
+	
 	<!-- localization -->
-
+	
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_STONE_CIRCLES" />
 		<Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
@@ -40,5 +40,5 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production and +2 [ICON_PEACE] Faith from Quarries</Text>
 		</Row>
 	</Language_RU_RU>
-
+  
 </GameData>

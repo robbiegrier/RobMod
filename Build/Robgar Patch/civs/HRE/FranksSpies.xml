@@ -28,25 +28,25 @@
 			<SpyName>TXT_KEY_SPY_NAME_FRANKS_5</SpyName>
 		</Row>
 	</Civilization_SpyNames>
-
+	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_0">
 			<Text>Roland</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_1">
-			<Text>Jakup</Text>
+			<Text>Susannah</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_2">
 			<Text>Cuthbert</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_3">
-			<Text>Seranna</Text>
+			<Text>Jakup</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_4">
 			<Text>Edward</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_5">
-			<Text>Drew</Text>
+			<Text>Stephen</Text>
 		</Row>
 	</Language_en_US>
 

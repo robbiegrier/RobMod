@@ -18,7 +18,7 @@
 			<Where BuildingType="BUILDING_LOUVRE" UnitType="UNIT_ARTIST" />
 		</Update>
 	</Building_FreeUnits>
-
+	
 
 	<!-- localization -->
 
@@ -46,5 +46,5 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Recieve 4 slots for Great Works of Art and 4 Archaeologists.</Text>
 		</Row>
 	</Language_RU_RU>
-
+  
 </GameData>

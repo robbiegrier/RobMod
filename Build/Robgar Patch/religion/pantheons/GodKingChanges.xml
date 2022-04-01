@@ -3,7 +3,7 @@
 <GameData>
 
 	<!-- Removed happiness -->
-
+	
 	<Belief_BuildingClassHappiness>
 		<Row>
 			<BeliefType>BELIEF_GOD_KING</BeliefType>
@@ -14,7 +14,7 @@
 
 
 	<!-- localization -->
-
+	
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_GOD_KING" />
 		<Row Tag="TXT_KEY_BELIEF_GOD_KING">
@@ -39,5 +39,5 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Palace provides +1 each of [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PEACE] Faith</Text>
 		</Row>
 	</Language_RU_RU>
-
+  
 </GameData>

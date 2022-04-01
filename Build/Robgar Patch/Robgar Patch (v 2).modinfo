@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="6087720c-2390-4eb4-844d-01b0034c6cf8" version="2">
+<Mod id="6087720c-2390-4eb4-844d-01b0034c6cf8" version="1">
   <Properties>
     <Name>Robgar Patch</Name>
     <Stability>Alpha</Stability>
-    <Teaser>The RobMod</Teaser>
-    <Description>The RobMod builds on TakMod.</Description>
+    <Teaser>A gameplay patch for takmod. Unofficial changes by Robbie.</Teaser>
+    <Description>A gameplay patch for takmod. Unofficial changes by Robbie.</Description>
     <Authors>Robbie</Authors>
-    <SpecialThanks>Sid Meyer</SpecialThanks>
+    <SpecialThanks>tak and the staff of dreams</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -25,60 +25,87 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="F3E3565C9CF788A955C9DCBFC3D8EA31" import="0">art/d_IconAtlas128_Franks.dds</File>
-    <File md5="C0BD3878C3358A38DA8E52AAC8EF9DA0" import="0">art/d_IconAtlas256_Franks.dds</File>
-    <File md5="2B8964C508C75144BF529EF824A66544" import="0">art/d_IconAtlas32_Franks.dds</File>
-    <File md5="1AEB0E8623CA566E3C36A0AD981C8699" import="0">art/d_IconAtlas45_Franks.dds</File>
-    <File md5="9E68010FE0AF99E45BCCDAE67400F105" import="0">art/d_IconAtlas64_Franks.dds</File>
-    <File md5="095C7699505A7B45E9F49E7094684368" import="0">art/d_IconAtlas80_Franks.dds</File>
+    <File md5="F3E3565C9CF788A955C9DCBFC3D8EA31" import="1">art/d_IconAtlas128_Franks.dds</File>
+    <File md5="C0BD3878C3358A38DA8E52AAC8EF9DA0" import="1">art/d_IconAtlas256_Franks.dds</File>
+    <File md5="2B8964C508C75144BF529EF824A66544" import="1">art/d_IconAtlas32_Franks.dds</File>
+    <File md5="1AEB0E8623CA566E3C36A0AD981C8699" import="1">art/d_IconAtlas45_Franks.dds</File>
+    <File md5="9E68010FE0AF99E45BCCDAE67400F105" import="1">art/d_IconAtlas64_Franks.dds</File>
+    <File md5="095C7699505A7B45E9F49E7094684368" import="1">art/d_IconAtlas80_Franks.dds</File>
     <File md5="79CB72D8539C7C08A897209AA945D5E3" import="0">art/IconAtlas_Franks.xml</File>
-    <File md5="96C6042D6141227BF683B3CE3A93031C" import="0">buildings/ObservatoryChanges.xml</File>
-    <File md5="423D7071883B7EC09396C09AF6413448" import="0">buildings/WindmillChanges.xml</File>
-    <File md5="C85C7DF5D362C321B880AA127943B6C7" import="0">civs/AmericaChanges.xml</File>
-    <File md5="7B2CBB5E109C842303867A24618665D0" import="0">civs/EgyptChanges.xml</File>
-    <File md5="9F11C0AB8C8CA7246946C90459EF7D9A" import="0">civs/Franks/BuildingPilgrimageChurch.xml</File>
-    <File md5="741EA1496E5282305E50D04ADD612BB0" import="0">civs/Franks/ChansonDeGeste.xml</File>
-    <File md5="A6D4355E27A020E8657241A2D821DF37" import="0">civs/Franks/CivilizationFranks.xml</File>
-    <File md5="549485866D626A20259E8B8DDBA306A3" import="0">civs/Franks/FranksCities.xml</File>
-    <File md5="EA603AF998946DE57B9AD13EB072B384" import="0">civs/Franks/FranksCivilopedia.xml</File>
-    <File md5="6B60A635867BDD8457E1221A150115E0" import="0">civs/Franks/FranksColors.xml</File>
-    <File md5="287F2C3188232244F6C0E4F2F03F6E95" import="0">civs/Franks/FranksSpies.xml</File>
-    <File md5="BFFE0E04C113D8DC4BB37DCA16812BCE" import="0">civs/Franks/LeaderCharlemagne.xml</File>
-    <File md5="529F24476509079D19F1202B72B2E367" import="0">civs/Franks/TraitChansonDeGeste.lua</File>
-    <File md5="1EB4DE4FEA97D12CCCED477DE3821ED8" import="0">civs/Franks/UnitCrusader.xml</File>
-    <File md5="490D04FE8B0CF8F83B65BD0DE0C18822" import="0">civs/OttomanChanges.xml</File>
-    <File md5="7A23BBEE1AF98DCB1DF7A228ED9E7BEC" import="0">civs/ZuluChanges.xml</File>
-    <File md5="455947194CCFDFFC783CFAFB67ACDE28" import="0">religion/pantheons/GodKingChanges.xml</File>
-    <File md5="BEF9AD1B628A79B3C6447549761C6AD9" import="0">religion/pantheons/StoneCirclesChanges.xml</File>
-    <File md5="84A1E0D67C4D2DC9FEE304302AC01356" import="0">religion/reformations/UndergroundSectChanges.xml</File>
-    <File md5="54517BB303C6961B9078D24E3D13627A" import="0">wonders/world/AlhambraChanges.xml</File>
-    <File md5="FB26E8143EFA618E741C07AA647B64F4" import="0">wonders/world/LouvreChanges.xml</File>
-    <File md5="71C1B05F2E65EDE0F36DFE34C284CD13" import="0">wonders/world/PyramidsChanges.xml</File>
+    <File md5="F8F2F9C33F7121E8FFE3F040ED923118" import="0">buildings/ObservatoryChanges.xml</File>
+    <File md5="3CE05F3AAE3E908F36A353E921373544" import="0">buildings/ResearchLabChanges.xml</File>
+    <File md5="8DA95A9EAEDB20457106A933978A84BA" import="0">buildings/WindmillChanges.xml</File>
+    <File md5="1BF74DC59585988182AACEBF4C96EEE9" import="0">civs/AmericaChanges.xml</File>
+    <File md5="5270EE5CE54CF37FAE87FBEF40EE2792" import="0">civs/AztecChanges.xml</File>
+    <File md5="E863A045E2B46F5F7D01463F1ECF4484" import="0">civs/CarthageChanges.xml</File>
+    <File md5="E0960FA47C2513642E35E7C745184BA9" import="0">civs/EgyptChanges.xml</File>
+    <File md5="F3143C0D441418E4D8411521AF260D35" import="0">civs/GreeceChanges.xml</File>
+    <File md5="8DAF5729660F6001D756D359C7E1DC88" import="0">civs/HRE/BuildingPilgrimageChurch.xml</File>
+    <File md5="3B37CEC89F2C01AE4924C2D9C79361B1" import="0">civs/HRE/CivilizationFranks.xml</File>
+    <File md5="7129AC1C142D7FD14FE5A43AFFD42BC9" import="0">civs/HRE/FranksCities.xml</File>
+    <File md5="5C9A5BA109AF346919A2F8BA86601275" import="0">civs/HRE/FranksCivilopedia.xml</File>
+    <File md5="3CC1454299DDB3A324E537F97DA034C5" import="0">civs/HRE/FranksColors.xml</File>
+    <File md5="78BB434884C8EBF2445D200DBB6D4DA3" import="0">civs/HRE/FranksSpies.xml</File>
+    <File md5="E5B19E33B2FBF51AE371A36DFC44771C" import="0">civs/HRE/LeaderCharlemagne.xml</File>
+    <File md5="529F24476509079D19F1202B72B2E367" import="0">civs/HRE/TraitChansonDeGeste.lua</File>
+    <File md5="9A0F9C7A01A9E639DD1A442EBE55B668" import="0">civs/HRE/TraitChansonDeGeste.xml</File>
+    <File md5="7957F9274279206A9E4F9DEA2BE68836" import="0">civs/HRE/UnitCrusader.xml</File>
+    <File md5="BD651889A8FA512C59471603BD9F6DA6" import="0">civs/MongoliaChanges.xml</File>
+    <File md5="6C5F19268DBDAC306FC155D052D8C90C" import="0">civs/OttomanChanges.xml</File>
+    <File md5="E8CFEF0C0932B5F5D82AFD3ED136F52A" import="0">civs/PersiaChanges.lua</File>
+    <File md5="489E6644A10142C3FAF39A3087C24295" import="0">civs/PersiaChanges.xml</File>
+    <File md5="61332F7287AFAD559A29A08BAD87C2A9" import="0">civs/PolynesiaChanges.xml</File>
+    <File md5="6507E195B393DB64546A918F9F22BEA7" import="0">civs/ZuluChanges.xml</File>
+    <File md5="E5C7A1D7560C1142CA08C70169356D43" import="0">religion/pantheons/GodKingChanges.xml</File>
+    <File md5="C4E5BC57E736957BDE30E02D0D792E00" import="0">religion/pantheons/StoneCirclesChanges.xml</File>
+    <File md5="2C9B85A187E3EFF09AFEA76BEE315BDE" import="0">religion/reformations/UndergroundSectChanges.xml</File>
+    <File md5="9053E044F1680E9C3094BA7524B4D9F2" import="0">ui/StagingRoomVersioning.xml</File>
+    <File md5="AA2B9E7405F9BF01B56F1E44DE89D925" import="0">wonders/world/AlhambraChanges.xml</File>
+    <File md5="02F1670588C73BF7D2AC0102D021B1DB" import="0">wonders/world/LouvreChanges.xml</File>
+    <File md5="98EABF90472D784ACBE5D6EB3AA82F99" import="0">wonders/world/PyramidsChanges.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>buildings/WindmillChanges.xml</UpdateDatabase>
-      <UpdateDatabase>buildings/ObservatoryChanges.xml</UpdateDatabase>
-      <UpdateDatabase>civs/AmericaChanges.xml</UpdateDatabase>
-      <UpdateDatabase>civs/EgyptChanges.xml</UpdateDatabase>
-      <UpdateDatabase>civs/OttomanChanges.xml</UpdateDatabase>
       <UpdateDatabase>civs/ZuluChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ObservatoryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/OttomanChanges.xml</UpdateDatabase>
       <UpdateDatabase>religion/pantheons/GodKingChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/WindmillChanges.xml</UpdateDatabase>
       <UpdateDatabase>religion/pantheons/StoneCirclesChanges.xml</UpdateDatabase>
-      <UpdateDatabase>religion/reformations/UndergroundSectChanges.xml</UpdateDatabase>
       <UpdateDatabase>wonders/world/AlhambraChanges.xml</UpdateDatabase>
-      <UpdateDatabase>wonders/world/LouvreChanges.xml</UpdateDatabase>
+      <UpdateDatabase>religion/reformations/UndergroundSectChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/EgyptChanges.xml</UpdateDatabase>
       <UpdateDatabase>wonders/world/PyramidsChanges.xml</UpdateDatabase>
+      <UpdateDatabase>wonders/world/LouvreChanges.xml</UpdateDatabase>
+      <UpdateDatabase>buildings/ResearchLabChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/GreeceChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/PolynesiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/CarthageChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/UnitCrusader.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/CivilizationFranks.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/FranksCivilopedia.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/FranksCities.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/FranksSpies.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/LeaderCharlemagne.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/FranksColors.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/TraitChansonDeGeste.xml</UpdateDatabase>
+      <UpdateDatabase>civs/HRE/BuildingPilgrimageChurch.xml</UpdateDatabase>
       <UpdateDatabase>art/IconAtlas_Franks.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/BuildingPilgrimageChurch.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/CivilizationFranks.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/FranksCities.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/FranksCivilopedia.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/FranksColors.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/FranksSpies.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/LeaderCharlemagne.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/ChansonDeGeste.xml</UpdateDatabase>
-      <UpdateDatabase>civs/Franks/UnitCrusader.xml</UpdateDatabase>
+      <UpdateDatabase>civs/MongoliaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/AztecChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/PersiaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>civs/AmericaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>ui/StagingRoomVersioning.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="civs/HRE/TraitChansonDeGeste.lua">
+      <Name>FranksDummyPolicy</Name>
+      <Description>FranksDummyPolicyDesc</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="civs/PersiaChanges.lua">
+      <Name>PersiaDummyPolicy</Name>
+      <Description>PersiaDummyPolicyDesc</Description>
+    </EntryPoint>
+  </EntryPoints>
 </Mod>

@@ -2,7 +2,7 @@
 <!-- Created by ModBuddy on 7/10/2019 9:34:56 PM -->
 <!-- Robbie Grier -->
 <GameData>
-
+	
 	<Buildings>
 		<Row>
 			<Type>BUILDING_PILGRIMAGE_CHURCH</Type>
@@ -34,7 +34,7 @@
 			<Flavor>40</Flavor>
 		</Row>
 	</Building_Flavors>
-
+	
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_PILGRIMAGE_CHURCH</BuildingType>
@@ -52,19 +52,15 @@
 			<Text>+5% [ICON_GOLD] Gold from city connections. Doubles [ICON_GOLD] Gold given to enemy if city is captured.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PILGRIMAGE_CHURCH_TEXT">
-			<Text>
-				A pilgrimage church is a church to which pilgrimages are regularly made, or a church along a pilgrimage route,
-				like the Way of St. James, that is visited by pilgrims. Pilgrimage churches are often located by the graves of saints,
-				or hold portraits to which miraculous properties are ascribed or saintly relics that are safeguarded by the church for
-				their veneration.
-			</Text>
+			<Text>A pilgrimage church is a church to which pilgrimages are regularly made, or a church along a pilgrimage route, 
+			like the Way of St. James, that is visited by pilgrims. Pilgrimage churches are often located by the graves of saints, 
+			or hold portraits to which miraculous properties are ascribed or saintly relics that are safeguarded by the church for 
+			their veneration.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PILGRIMAGE_CHURCH_STRATEGY">
-			<Text>
-				The pilgrimage church increases the [ICON_GOLD] Gold output of the empire based on how many city connections it has.
-				It can hold a Great Work of Art or Artifact.
-			</Text>
+			<Text>The pilgrimage church increases the [ICON_GOLD] Gold output of the empire based on how many city connections it has. 
+			It can hold a Great Work of Art or Artifact.</Text>
 		</Row>
 	</Language_en_US>
-
+	
 </GameData>

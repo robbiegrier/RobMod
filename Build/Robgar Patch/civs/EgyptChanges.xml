@@ -43,7 +43,7 @@
 			<NukeImmune>true</NukeImmune>
 		</Row>
 	</Buildings>
-
+	
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
@@ -61,7 +61,7 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-
+	
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
@@ -70,7 +70,7 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-
+	
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
@@ -79,7 +79,7 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-
+	
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
@@ -88,7 +88,7 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-
+	
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
@@ -106,15 +106,15 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-
-
+	
+	
 	<Civilization_FreeBuildingClasses>
 		<Row>
 			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_EGYPTDUMMYBUILDING</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
-
+	
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
 		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
@@ -139,5 +139,5 @@
 			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+10% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds. Ancient Wonders provide +4 [ICON_FOOD] Food.</Text>
 		</Row>
 	</Language_RU_RU>
-
+  
 </GameData>
