@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/28/2019 9:09:14 PM -->
+<GameData>
+
+	<!-- CHANGES - 2 Happiness per religion (up from 1) -->
+
+	<Traits>
+		<Update>
+			<Set HappinessPerReligion="2"/>
+			<Where  Type="TRAIT_CONVERTS_SEA_BARBARIANS" />
+		</Update>
+	</Traits>
+
+	<Building_YieldChangesPerReligion>
+		<Update>
+			<Set Yield="200"/>
+			<Where YieldType ="YIELD_GOLD" BuildingType="BUILDING_OTTOMANDUMMYBUILDING" />
+		</Update>
+	</Building_YieldChangesPerReligion>
+
+
+	<!-- localization -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>Each City gets +2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Each City gets +2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_DE_DE>
+
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Each City gets +2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_PL_PL>
+
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Each City gets +2 [ICON_HAPPINESS_1] Happiness and +2 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

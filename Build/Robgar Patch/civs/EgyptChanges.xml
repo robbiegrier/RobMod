@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/28/2019 10:16:39 PM -->
+<GameData>
+
+	<Traits>
+		<Update>
+			<Set WonderProductionModifier="10"/>
+			<Where Type="TRAIT_WONDER_BUILDER" />
+		</Update>
+	</Traits>
+
+	<!-- Dummy building for ancient wonder bonus -->
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_EGYPTDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_EGYPTDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_EGYPTDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_EGYPTDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_EGYPTDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_EGYPTDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PYRAMID</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_LIBRARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STONEHENGE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STATUE_ZEUS</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE_ARTEMIS</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EGYPTDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EGYPTDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>+10% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds. Ancient Wonders provide +4 [ICON_FOOD] Food.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+10% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds. Ancient Wonders provide +4 [ICON_FOOD] Food.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+10% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds. Ancient Wonders provide +4 [ICON_FOOD] Food.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+10% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds. Ancient Wonders provide +4 [ICON_FOOD] Food.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

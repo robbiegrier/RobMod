@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/28/2019 9:48:00 PM -->
+<GameData>
+
+	<!-- reduced cost of windmill (250 to 200) -->
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WINDMILL" />
+			<Set Cost="200"/>
+		</Update>
+	</Buildings>
+
+</GameData>

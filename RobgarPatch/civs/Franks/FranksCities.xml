@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2019 6:30:01 PM -->
+<GameData>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FRANKS_9</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_0">
+			<Text>Burgundy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_1">
+			<Text>Rothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_2">
+			<Text>Aachen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_3">
+			<Text>Ausburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_4">
+			<Text>Worms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_5">
+			<Text>Ravensburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_6">
+			<Text>Heilbronn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_7">
+			<Text>Offenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_8">
+			<Text>Rottweil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_9">
+			<Text>Buchau</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_0">
+			<Text>Burgundy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_1">
+			<Text>Rothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_2">
+			<Text>Aachen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_3">
+			<Text>Ausburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_4">
+			<Text>Worms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_5">
+			<Text>Ravensburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_6">
+			<Text>Heilbronn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_7">
+			<Text>Offenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_8">
+			<Text>Rottweil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_9">
+			<Text>Buchau</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_0">
+			<Text>Burgundy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_1">
+			<Text>Rothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_2">
+			<Text>Aachen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_3">
+			<Text>Ausburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_4">
+			<Text>Worms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_5">
+			<Text>Ravensburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_6">
+			<Text>Heilbronn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_7">
+			<Text>Offenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_8">
+			<Text>Rottweil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_9">
+			<Text>Buchau</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_0">
+			<Text>Burgundy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_1">
+			<Text>Rothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_2">
+			<Text>Aachen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_3">
+			<Text>Ausburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_4">
+			<Text>Worms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_5">
+			<Text>Ravensburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_6">
+			<Text>Heilbronn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_7">
+			<Text>Offenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_8">
+			<Text>Rottweil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FRANKS_9">
+			<Text>Buchau</Text>
+		</Row>
+	</Language_RU_RU>
+
+
+</GameData>

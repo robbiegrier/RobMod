@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/11/2019 1:07:52 PM -->
+<GameData>
+
+	<UnitPromotions>
+		<Update>
+			<Set CombatStrengthNearFriendlyMinor="10"/>
+			<Where Type="PROMOTION_SENTRY"/>
+		</Update>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>All Land Military Units have +1 Sight and +10% [ICON_STRENGTH] Combat Strength within 5 tiles of City-States that can be liberated, or have more than 60 [ICON_INFLUENCE] Influence with. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All Land Military Units have +1 Sight and +10% [ICON_STRENGTH] Combat Strength within 5 tiles of City-States that can be liberated, or have more than 60 [ICON_INFLUENCE] Influence with. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All Land Military Units have +1 Sight and +10% [ICON_STRENGTH] Combat Strength within 5 tiles of City-States that can be liberated, or have more than 60 [ICON_INFLUENCE] Influence with. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All Land Military Units have +1 Sight and +10% [ICON_STRENGTH] Combat Strength within 5 tiles of City-States that can be liberated, or have more than 60 [ICON_INFLUENCE] Influence with. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

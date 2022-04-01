@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/10/2019 9:34:56 PM -->
+<!-- Robbie Grier -->
+<GameData>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PILGRIMAGE_CHURCH</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PILGRIMAGE_CHURCH</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PILGRIMAGE_CHURCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PILGRIMAGE_CHURCH_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PILGRIMAGE_CHURCH_HELP</Help>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>FRANKS_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<CapturePlunderModifier>100</CapturePlunderModifier>
+			<CityConnectionTradeRouteModifier>5</CityConnectionTradeRouteModifier>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PILGRIMAGE_CHURCH</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PILGRIMAGE_CHURCH</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PILGRIMAGE_CHURCH">
+			<Text>Pilgrimage Church</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PILGRIMAGE_CHURCH_HELP">
+			<Text>+5% [ICON_GOLD] Gold from city connections. Doubles [ICON_GOLD] Gold given to enemy if city is captured.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PILGRIMAGE_CHURCH_TEXT">
+			<Text>
+				A pilgrimage church is a church to which pilgrimages are regularly made, or a church along a pilgrimage route,
+				like the Way of St. James, that is visited by pilgrims. Pilgrimage churches are often located by the graves of saints,
+				or hold portraits to which miraculous properties are ascribed or saintly relics that are safeguarded by the church for
+				their veneration.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PILGRIMAGE_CHURCH_STRATEGY">
+			<Text>
+				The pilgrimage church increases the [ICON_GOLD] Gold output of the empire based on how many city connections it has.
+				It can hold a Great Work of Art or Artifact.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

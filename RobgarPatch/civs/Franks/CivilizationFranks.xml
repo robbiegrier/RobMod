@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2019 5:50:56 PM -->
+<!-- Robbie Grier -->
+<GameData>
+
+	<!-- THE FRANKISH KINGDOM -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_FRANKS</Type>
+			<Description>TXT_KEY_CIV_FRANKS_DESC</Description>
+			<ShortDescription>TXT_KEY_CIV_FRANKS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FRANKS_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_FRANKS_CELT_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_FRANKS</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_FRANKS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>FRANKS_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapGermany512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_FRANKS_TEXT_1</DawnOfManQuote>
+			<DawnOfManImage>DOM_Casimir.dds</DawnOfManImage>
+		</Row>
+	</Civilizations>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+
+
+
+	<!-- START DATA -->
+	<!-- Standard starting items -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+
+
+
+	<!-- BIASES -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+
+
+
+	<!-- LEADER -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<LeaderheadType>LEADER_CHARLEMAGNE</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+
+
+
+	<!--`UNIQUES -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitType>UNIT_CRUSADER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_PILGRIMAGE_CHURCH</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<!-- ////////////////////////////////////////////////////////////// -->
+	<!-- ////////////////////////////////////////////////////////////// -->
+
+</GameData>

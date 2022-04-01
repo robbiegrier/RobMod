@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2019 6:45:09 PM -->
+<GameData>
+
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANKS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FRANKS_5</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_0">
+			<Text>Roland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_1">
+			<Text>Jakup</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_2">
+			<Text>Cuthbert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_3">
+			<Text>Seranna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_4">
+			<Text>Edward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FRANKS_5">
+			<Text>Drew</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

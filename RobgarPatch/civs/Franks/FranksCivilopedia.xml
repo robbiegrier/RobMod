@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2019 6:41:03 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_FRANKS_ADJECTIVE">
+			<Text>Frankish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FRANKS_DESC">
+			<Text>Kingdom of the Franks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_FRANKS_SHORT_DESC">
+			<Text>Franks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FRANKS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FRANKS_TEXT_1">
+			<Text>
+				Blessings of God be upon you, Charlemagne. King of the Franks, King of the Lombards, and Emperor of the Romans!
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_CHARLEMAGNE">
+			<Text>Charlemagne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_NAME">
+			<Text>Charlemagne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_SUBTITLE">
+			<Text>Charlemagne of the Franks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_LIVED">
+			<Text>	c. 742 – 814 C.E.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_HEADING_1">
+			<Text>Credits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_TEXT_1">
+			<Text>
+				All information was gathered from Wikipedia:
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]https://en.wikipedia.org/wiki/Francia
+				[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]https://en.wikipedia.org/wiki/Franks
+				[ENDCOLOR][NEWLINE][COLOR_POSITIVE_TEXT]https://en.wikipedia.org/wiki/Charlemagne [ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_HEADING_2">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_CHARLEMAGNE_TEXT_2">
+			<Text>Charlemagne was the eldest son of Pepin the Short and Bertrada of Laon, born before their canonical marriage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHARLEMAGNE_FIRSTGREETING_1">
+			<Text>Greetings, stranger! You stand before Charlemagne, King of the Franks, King of the Lombards, and Emperor of the Romans. Tell me of your lands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CHARLEMAGNE_DEFEATED_1">
+			<Text>Enough! You have won. God weeps at the sight of your victory.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

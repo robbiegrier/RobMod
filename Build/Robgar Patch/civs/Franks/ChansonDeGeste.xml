@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/10/2019 5:36:44 PM -->
+<!-- Robbie Grier -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_CHANSON_DE_GESTE</Type>
+			<Description>TXT_KEY_TRAIT_CHANSON_DE_GESTE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CHANSON_DE_GESTE_SHORT</ShortDescription>
+			<FaithFromKills>100</FaithFromKills>
+		</Row>
+	</Traits>
+
+	<Policies>
+		<Row>
+			<Type>DUMMY_POLICY_FRANKS</Type>
+			<Description>TXT_KEY_DUMMY_POLICY_FRANKS</Description>
+		</Row>
+	</Policies>
+
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>DUMMY_POLICY_FRANKS</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DUMMY_POLICY_FRANKS">
+			<Text>FRANKS Dummy Policy</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CHANSON_DE_GESTE_SHORT">
+			<Text>Chanson de Geste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CHANSON_DE_GESTE">
+			<Text>+5 [ICON_GOLD] Gold from Great Works. Gains [ICON_PEACE] Faith for the empire from each enemy unit killed.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>
